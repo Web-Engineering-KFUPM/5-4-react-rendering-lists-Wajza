@@ -43,7 +43,7 @@
      Replace the TODO comment with your .map() code.
 
    =========================================================
-   TASK 2 — Render Tasks for Each Course
+   Done 2 — Render Tasks for Each Course
    File: src/components/CourseCard.jsx
    ---------------------------------------------------------
    GOAL:
