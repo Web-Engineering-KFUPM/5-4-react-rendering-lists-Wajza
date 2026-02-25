@@ -62,7 +62,7 @@
          - onDelete={deleteTask}
 
   =========================================================
-   TASK 3 — Simple Conditional Rendering (ONLY &&)
+   Done 3 — Simple Conditional Rendering (ONLY &&)
    Files: CourseCard.jsx, TaskItem.jsx, DueBadge.jsx
    ---------------------------------------------------------
    GOAL:
