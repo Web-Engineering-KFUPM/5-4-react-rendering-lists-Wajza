@@ -87,7 +87,7 @@
         - "Due in X days" (if future)
 
    =========================================================
-   TASK 4 — Interactivity (Toggle + Delete ONLY)
+   Done 4 — Interactivity (Toggle + Delete ONLY)
    Files: CourseCard.jsx, TaskItem.jsx
    ---------------------------------------------------------
    GOAL:
