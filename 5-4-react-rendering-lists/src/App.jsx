@@ -20,7 +20,7 @@
       Then re-run your npm commands.
 
    =========================================================
-   TASK 1 — Render Course Components (STUDENTS DO THIS)
+   Done 1 — Render Course Components (STUDENTS DO THIS)
    File: src/App.jsx
    ---------------------------------------------------------
    GOAL:
@@ -138,13 +138,17 @@ export default function App() {
       </header>
 
       <section className="grid">
-        {/* TODO (TASK 1): Render all courses using courses.map(...)
-      For each course render <CourseCard /> and pass:
-        - key={course.id}
-        - course={course}
-        - index={idx}
-        - onMutateCourse={mutateCourseByIndex}
-  */}
+        {/* Done (TASK 1): Render all courses using courses.map(...) For each course render <CourseCard /> and pass: */}
+      
+        {courses.map((course, idx) => (
+          <CourseCard
+            key={course.id}
+            course={course}
+            index={idx}
+            onMutateCourse={mutateCourseByIndex}
+          />
+        ))}
+
       </section>
     </main>
   );
